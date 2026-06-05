@@ -1,10 +1,7 @@
-import React from "react"
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  return (
-    <>
-      <h1 className="bg-red-500">harsh</h1>
-    </>
-  )
+  return <AppRoutes />;
 }
-export default App
+
+export default App;
