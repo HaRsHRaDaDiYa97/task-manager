@@ -101,8 +101,8 @@ Task-Manager
 
 ```env
 PORT=8000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+MONGO_URI=mongodb+srv://harshradadiya97:mf0iIWUB07SJ5eqY@cluster0.twkiaii.mongodb.net/taskmanager?retryWrites=true&w=majority
+JWT_SECRET=task_manager_secret_2026_harsh_radadiya
 ```
 
 ---
@@ -112,7 +112,7 @@ JWT_SECRET=your_secret_key
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/task-manager.git
+git clone https://github.com/HaRsHRaDaDiYa97/task-manager.git
 ```
 
 ### Backend Setup
@@ -179,6 +179,6 @@ Harsh Radadiya
 
 BCA Graduate | MERN Stack Developer
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/HaRsHRaDaDiYa97/
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/harsh-radadiya-747094275
