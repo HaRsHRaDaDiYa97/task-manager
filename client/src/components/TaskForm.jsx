@@ -29,10 +29,15 @@ const TaskForm = ({ fetchTasks }) => {
       setTitle("");
       setDescription("");
 
-      fetchTasks();
+      // Call only if fetchTasks exists
+      fetchTasks?.();
     } catch (error) {
+      console.error(error);
+
       toast.error(
-        error.response?.data?.message
+        error.response?.data?.message ||
+          error.message ||
+          "Something went wrong"
       );
     } finally {
       setLoading(false);

@@ -4,6 +4,7 @@ import api from "../services/api";
 import toast from "react-hot-toast";
 
 import { Helmet } from "react-helmet-async";
+import Navbar from "../components/Navbar";
 
 const Dashboard = () => {
   const [tasks, setTasks] = useState([]);
@@ -50,7 +51,7 @@ const Dashboard = () => {
   />
 </Helmet>
 
-      
+      <Navbar />
 
       <div className="max-w-7xl mx-auto p-4">
         <h1 className="text-3xl font-bold mb-6">
